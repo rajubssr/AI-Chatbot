@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Is anyone there?"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I'm leaving", "Have a good day"],
+      "responses": ["Goodbye! Have a great day!", "See you later!", "Bye! Feel free to come back anytime."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Anytime!", "You're welcome!", "My pleasure!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["What are you?", "Who are you?", "What can you do?", "Tell me about yourself"],
+      "responses": ["I'm a virtual assistant here to help you with your queries.", "I'm an AI chatbot. I can answer your questions and help you navigate our services."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your working hours?", "When are you open?", "What time do you close?"],
+      "responses": ["We are available 24/7 via this chatbot. Our human support team is available Mon-Fri, 9am-6pm."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact you?", "Give me your contact details", "Email address", "Phone number"],
+      "responses": ["You can reach us at support@example.com or call +91-9999999999."]
+    },
+    {
+      "tag": "order",
+      "patterns": ["I want to place an order", "How do I order?", "Can I buy something?", "I want to purchase"],
+      "responses": ["Sure! Please visit our products page or tell me what you're looking for and I'll help you out."]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I have a complaint", "I'm not happy", "This is not working", "I have a problem"],
+      "responses": ["I'm sorry to hear that. Please describe your issue and I'll do my best to resolve it or escalate to our support team."]
+    }
+  ]
+}
